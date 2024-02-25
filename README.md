@@ -1,4 +1,5 @@
-**Decription**
+## Description
+
 Argumentative Writing is a critical skill for a student to foster throughout their academic career. It is a 
 method for students to organize and present analytical conclusions to persuade the audience. This type of skill 
 teaches students to evaluate conflicting claims and assess testimonies. At the same time, it develops students to 
@@ -15,7 +16,7 @@ represents argumentative writings from 6th to 12th grade in the United States. W
 will be able to get instant reports of their writing which will allow students to get more practice and elevate their 
 writing.
 
-**Goals**
+## Goals
 The goal of this project is to classify argumentative elements in student writing as "effective," "adequate," 
 or "ineffective." We would want to create a model trained on data that is representative of the 6th-12th grade 
 population in the United States in order to minimize bias. The model built hopefully helps pave the way for 
@@ -27,3 +28,13 @@ the model performance with respect to the data. We are considering it as a class
 this is related to the text processing tasks, we might also try to use some RNNs if needed. First, all the essays are 
 cleaned, then try converting the words in the essay into tokens, or maybe try creating a sequential network with 
 the words. The approach to the problem might vary depending on the trails that are done on the data.
+
+## Run Instructions
+Run the model_colab.ipynb file on the given dataset in the dataset folder.
+
+1. Unzip the file in the dataset folder.
+2. Change the path of the dataset present in cells 3, 4 and 14.
+3. Now, run the model_colab.ipynb.
+
+## Training and Evaluation
+The training might take a couple of hours to complete. The evaluation is done on the test dataset that is taken from the original dataset. The mean squared error is 0.4389.
